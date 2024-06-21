@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: blue;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        a:visited{
+            
+        }
+
+        a:hover{
+            text-decoration: underline;
+            color: purple;
+        }
+
+        .especial{
+            background-color: darkcyan;
+            font-weight: bold;
+            width: 300px;
+            color: darkred;
+        }
+
+        .especial::after{
+            content: "⇐";
+        }
+        
+        .especial::before{
+    
+            content: "⇒";
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalisando links</h1>
+
+    <ul>
+        <li><a href="https://github.com/MIFECASO">Repositorio GItHub</a></li>
+
+        <li><a href="https://www.youtube.com/@mif3caso34" class="especial">Canal do YouTube</a></li>
+
+        <li><a href="https://multicanais.blog/">Site multicanais</a></li>
+    </ul>
+</body>
+</html>
