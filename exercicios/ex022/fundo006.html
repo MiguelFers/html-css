@@ -3,20 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
 
     <style>
         body{
             height: 100vh;
-            background-color: black;
+
+            /*background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-repeat: no-repeat;
             background-position: center center;
             background-size: cover;
+            background-attachment: fixed;*/
+
+        /* Shorthand-background
+            color > image > position > repeat > [size] > attachment
+
+            [size]: ainda nao funciona, tem que fazer ele separado. deve ser colocado depois da shorthand
+        */
+        background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
+        background-size: cover;
         }
         main{
             background-color: white;
-            width: 450px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -28,6 +38,9 @@
     <main>
         <h1>Teste de imagem de fundo</h1>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo atque perspiciatis est. Laudantium voluptas quasi ullam facere quas deleniti neque, amet numquam id, eveniet esse quidem? Dicta veritatis officia quas! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae non corrupti quidem ipsam? Velit corrupti dignissimos adipisci atque consequuntur porro aut. Nulla sequi mollitia vero maiores voluptates, fugiat auto Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia nostrum quibusdam sed ullam odio sequi quod quae ducimus nulla porro ab consequuntur blanditiis facilis, accusantium quidem rerum. Temporibus, iste nulla?</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora facere corrupti, libero eligendi sunt nulla quas molestiae accusantium inventore aspernatur porro ipsum suscipit aut hic, voluptas vel magni nemo. Quibusdam?</p>  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo atque perspiciatis est. Laudantium voluptas quasi ullam facere quas deleniti neque, amet numquam id, eveniet esse quidem? Dicta veritatis officia quas! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae non corrupti quidem ipsam? Velit corrupti dignissimos adipisci atque consequuntur porro aut. Nulla sequi mollitia vero maiores voluptates, fugiat auto Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia nostrum quibusdam sed ullam odio sequi quod quae ducimus nulla porro ab consequuntur blanditiis facilis, accusantium quidem rerum. Temporibus, iste nulla?</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora facere corrupti, libero eligendi sunt nulla quas molestiae accusantium inventore aspernatur porro ipsum suscipit aut hic, voluptas vel magni nemo. Quibusdam?</p> <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo atque perspiciatis est. Laudantium voluptas quasi ullam facere quas deleniti neque, amet numquam id, eveniet esse quidem? Dicta veritatis officia quas! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae non corrupti quidem ipsam? Velit corrupti dignissimos adipisci atque consequuntur porro aut. Nulla sequi mollitia vero maiores voluptates, fugiat auto Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia nostrum quibusdam sed ullam odio sequi quod quae ducimus nulla porro ab consequuntur blanditiis facilis, accusantium quidem rerum. Temporibus, iste nulla?</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora facere corrupti, libero eligendi sunt nulla quas molestiae accusantium inventore aspernatur porro ipsum suscipit aut hic, voluptas vel magni nemo. Quibusdam?</p> <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo atque perspiciatis est. Laudantium voluptas quasi ullam facere quas deleniti neque, amet numquam id, eveniet esse quidem? Dicta veritatis officia quas! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae non corrupti quidem ipsam? Velit corrupti dignissimos adipisci atque consequuntur porro aut. Nulla sequi mollitia vero maiores voluptates, fugiat auto Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia nostrum quibusdam sed ullam odio sequi quod quae ducimus nulla porro ab consequuntur blanditiis facilis, accusantium quidem rerum. Temporibus, iste nulla?</p>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora facere corrupti, libero eligendi sunt nulla quas molestiae accusantium inventore aspernatur porro ipsum suscipit aut hic, voluptas vel magni nemo. Quibusdam?</p>
     </main>
 </body>
