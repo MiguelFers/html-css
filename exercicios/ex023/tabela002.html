@@ -20,9 +20,30 @@
             padding: 10px;
         }
 
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: #383838;
+        }
+
         thead, tfoot{
-            background-color: gray;
+            background-color: #383838;
             color: white;
+        }
+
+        tbody > tr:nth-child(odd){ /* 2n-1*/
+            background-color: white;
+        }
+
+        tbody > tr:nth-child(even){ /* 2n */
+            background-color: rgb(185, 184, 184);
         }
 
         .num{
@@ -43,9 +64,11 @@
                 tr, td, th
     -->
     <table>
+
+        <caption>Populaçao por Estado</caption>
         <thead>
-            <th>ESTADO</th>
-            <th>POPULAÇAO</th>
+            <th scope="col">ESTADO</th>
+            <th scope="col">POPULAÇAO</th>
         </thead>
 
         <tbody>
@@ -160,9 +183,11 @@
         </tbody> 
 
         <tfoot>
-            <th>Total de Habitantes</th>
+            <th scope="row">Total de Habitantes</th>
             <td class="num"><strong>210.147.125</strong></td>
         </tfoot>
     </table>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus voluptate recusandae voluptates, ipsa odio adipisci autem consectetur, esse commodi, necessitatibus culpa! Provident modi minima harum exercitationem, dolorem et aliquam sint?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, impedit enim officiis necessitatibus fugit voluptate numquam quia sapiente aliquam adipisci consequatur quo porro asperiores quisquam, minus cum. Autem,Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, voluptates quidem temporibus eius excepturi cum. Fugit architecto doloribus commodi adipisci, aperiam enim quas corporis laborum quis sint unde minima dolorum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem voluptatem vel nam tenetur? Facere illum nobis, delectus, a itaque provident est nesciunt eos iure vel in debitis at amet ipsa.</p>    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus voluptate recusandae voluptates, ipsa odio adipisci autem consectetur, esse commodi, necessitatibus culpa! Provident modi minima harum exercitationem, dolorem et aliquam sint?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, impedit enim officiis necessitatibus fugit voluptate numquam quia sapiente aliquam adipisci consequatur quo porro asperiores quisquam, minus cum. Autem,Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, voluptates quidem temporibus eius excepturi cum. Fugit architecto doloribus commodi adipisci, aperiam enim quas corporis laborum quis sint unde minima dolorum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem voluptatem vel nam tenetur? Facere illum nobis, delectus, a itaque provident est nesciunt eos iure vel in debitis at amet ipsa.</p>    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus voluptate recusandae voluptates, ipsa odio adipisci autem consectetur, esse commodi, necessitatibus culpa! Provident modi minima harum exercitationem, dolorem et aliquam sint?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, impedit enim officiis necessitatibus fugit voluptate numquam quia sapiente aliquam adipisci consequatur quo porro asperiores quisquam, minus cum. Autem,Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, voluptates quidem temporibus eius excepturi cum. Fugit architecto doloribus commodi adipisci, aperiam enim quas corporis laborum quis sint unde minima dolorum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem voluptatem vel nam tenetur? Facere illum nobis, delectus, a itaque provident est nesciunt eos iure vel in debitis at amet ipsa.</p>    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus voluptate recusandae voluptates, ipsa odio adipisci autem consectetur, esse commodi, necessitatibus culpa! Provident modi minima harum exercitationem, dolorem et aliquam sint?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, impedit enim officiis necessitatibus fugit voluptate numquam quia sapiente aliquam adipisci consequatur quo porro asperiores quisquam, minus cum. Autem,Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, voluptates quidem temporibus eius excepturi cum. Fugit architecto doloribus commodi adipisci, aperiam enim quas corporis laborum quis sint unde minima dolorum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem voluptatem vel nam tenetur? Facere illum nobis, delectus, a itaque provident est nesciunt eos iure vel in debitis at amet ipsa.</p>    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus voluptate recusandae voluptates, ipsa odio adipisci autem consectetur, esse commodi, necessitatibus culpa! Provident modi minima harum exercitationem, dolorem et aliquam sint?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, impedit enim officiis necessitatibus fugit voluptate numquam quia sapiente aliquam adipisci consequatur quo porro asperiores quisquam, minus cum. Autem,Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, voluptates quidem temporibus eius excepturi cum. Fugit architecto doloribus commodi adipisci, aperiam enim quas corporis laborum quis sint unde minima dolorum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem voluptatem vel nam tenetur? Facere illum nobis, delectus, a itaque provident est nesciunt eos iure vel in debitis at amet ipsa.</p>
 </body>
 </html>
