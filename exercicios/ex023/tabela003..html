@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: black;
+            color: white;
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 300px;
+            text-align: center;
+        }
+
+        thead{
+            background-color: #383838;
+            color: white;
+            border: 1px solid white;
+            padding: 10px;
+            width: 300px;
+        }
+
+        td, th{
+            border: 1px solid white;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mesclagem de celulas</h1>
+
+    <table>
+
+        <thead >
+            <th>Periodos Historicos</th>
+            <th  colspan="2">Descriçao do Periodo</th>
+            <th>Ano Que Se Passa</th>
+        </thead>
+        <tbody>
+    
+            <tr>
+                <td>Idade Média</td>
+                <td colspan="2">A Idade Média é um período de aproximadamente mil anos da história ocidental, que se inicia no século V, com a queda do Império Romano do Ocidente, em 476, e termina no século XV, com a tomada de Constantinopla pelo Império Otomano, em 1453.</td>
+                <td>(476-1453)</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Idade Antiga</td>
+                <td colspan="2">Dentro da periodização clássica utilizada na História, a Idade Moderna é um dos períodos da história humana e sucedeu a Idade Média e antecedeu a Idade Contemporânea. </td>
+                <td rowspan="2">(3500 a.C.-476 d.C.)</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+
+        </tfoot>
+    </table>
+</body>
+</html>
